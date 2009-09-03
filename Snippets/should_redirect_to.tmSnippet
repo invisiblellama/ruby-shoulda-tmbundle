@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_redirect_to "${1:${2:user}s_url(@$2)}"</string>
+	<string>should_redirect_to("${1:a page}") { ${2:${3:user}s_url(@$3)} }</string>
 	<key>name</key>
 	<string>should_redirect_to</string>
 	<key>scope</key>
