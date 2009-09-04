@@ -11,7 +11,7 @@
   should_route :post,   "/$1",        :controller =&gt; :$1, :action =&gt; :create
   should_route :put,    "/$1/1",      :controller =&gt; :$1, :action =&gt; :update,  :id =&gt; 1
   should_route :delete, "/$1/1",      :controller =&gt; :$1, :action =&gt; :destroy, :id =&gt; 1
-end</string>
+end$0</string>
 	<key>name</key>
 	<string>should_restfully_route</string>
 	<key>scope</key>
