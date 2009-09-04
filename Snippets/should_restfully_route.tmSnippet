@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>context "when routing" do
+  should_route :get,    "/${1:brands}",        :controller =&gt; :$1, :action =&gt; :index
+  should_route :get,    "/$1/1",      :controller =&gt; :$1, :action =&gt; :show,    :id =&gt; 1
+  should_route :get,    "/$1/1/edit", :controller =&gt; :$1, :action =&gt; :edit,    :id =&gt; 1
+  should_route :get,    "/$1/new",    :controller =&gt; :$1, :action =&gt; :new
+  should_route :post,   "/$1",        :controller =&gt; :$1, :action =&gt; :create
+  should_route :put,    "/$1/1",      :controller =&gt; :$1, :action =&gt; :update,  :id =&gt; 1
+  should_route :delete, "/$1/1",      :controller =&gt; :$1, :action =&gt; :destroy, :id =&gt; 1
+end</string>
+	<key>name</key>
+	<string>should_restfully_route</string>
+	<key>scope</key>
+	<string>source.ruby.rails.shoulda</string>
+	<key>tabTrigger</key>
+	<string>shrr</string>
+	<key>uuid</key>
+	<string>5CFF190E-0D8B-40B6-9301-E038207CC0CE</string>
+</dict>
+</plist>
