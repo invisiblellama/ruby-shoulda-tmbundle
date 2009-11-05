@@ -6,6 +6,12 @@
 	<string>qnivq@vagreanhgqrfvta.pbz</string>
 	<key>contactName</key>
 	<string>David Lowenfels</string>
+	<key>deleted</key>
+	<array>
+		<string>4B75A76F-D56C-4B2D-A786-8EBDA6D21E12</string>
+		<string>B2C2BBCD-C38C-4A5D-853A-7226DC4C440F</string>
+		<string>AB124E74-8CD3-4C35-8006-62DDBE5625D8</string>
+	</array>
 	<key>description</key>
 	<string>Support for the &lt;a href="http://thoughtbot.com/projects/shoulda"&gt;Shoulda&lt;/a&gt; testing framework.</string>
 	<key>mainMenu</key>
@@ -273,9 +279,6 @@
 		<string>97B45B1D-6350-44AB-BBA6-40F5554E1E1E</string>
 		<string>CF7E37B9-B0A1-414C-97D1-3C25F6F047FA</string>
 		<string>C8D9DE77-4B1F-4064-9410-E1B7F785095B</string>
-		<string>4B75A76F-D56C-4B2D-A786-8EBDA6D21E12</string>
-		<string>B2C2BBCD-C38C-4A5D-853A-7226DC4C440F</string>
-		<string>AB124E74-8CD3-4C35-8006-62DDBE5625D8</string>
 		<string>D6C46A2F-48F1-4D25-A763-F89D5E630809</string>
 		<string>A425CEA8-E040-4A05-8407-9963A21F8458</string>
 		<string>FC179DAC-A1BC-476C-BB86-FD0FC62B9B1B</string>
