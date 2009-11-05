@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>should_allow_mass_assignment_of :${1:attribute}${2:, :${3:attribute}${4:, :${5:attribute}}}</string>
+	<key>name</key>
+	<string>should_allow_mass_assignment_of</string>
+	<key>scope</key>
+	<string>source.ruby.rails.shoulda</string>
+	<key>tabTrigger</key>
+	<string>shamao</string>
+	<key>uuid</key>
+	<string>E693B45D-41E7-4531-BA2F-C4E7A491A14B</string>
+</dict>
+</plist>
