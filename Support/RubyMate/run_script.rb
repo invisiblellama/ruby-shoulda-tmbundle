@@ -21,11 +21,12 @@ class RubyScript < UserScript
       path_ary = @path.split("/")
       if index = path_ary.rindex("test")
         test_path = File.join(*path_ary[0..-2])
+        test_parent_path = File.join(*path_ary[0..(path_ary.rindex('test'))])
         lib_path  = File.join( *( path_ary[0..-2] +
                                   [".."] * (path_ary.length - index - 1) ) +
                                   ["lib"] )
         if File.exist? lib_path
-          cmd.insert(1, "-I#{e_sh lib_path}:#{e_sh test_path}")
+          cmd.insert(1, "-I#{e_sh lib_path}:#{e_sh test_path}:#{e_sh test_parent_path}")
         end
       end
     end
