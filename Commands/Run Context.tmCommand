@@ -21,7 +21,7 @@ should, context = nil, nil
 File.open(ENV['TM_FILEPATH']) do |f|
   lines     = f.read.split("\n")[0...n].reverse
   context   = lines.find { |line| line =~ /^\s*context\b/ }
-  should    = parse_from_quotes(lines.find { |line| line =~ /^\s*should[\s_]+/ })
+  should    = parse_from_quotes(lines.find { |line| line =~ /^\s*should[\b_]/ })
 end
 
 if !context.empty? &amp;&amp; !should.empty?
