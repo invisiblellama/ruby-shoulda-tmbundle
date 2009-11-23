@@ -1,4 +1,4 @@
-require "ui"
+require "#{ENV["TM_SUPPORT_PATH"]}/lib/ui"
 
 class TextMateSTDIN < IO
   def gets(sep = nil)
