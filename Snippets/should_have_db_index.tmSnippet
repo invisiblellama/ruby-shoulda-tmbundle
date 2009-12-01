@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_have_indices :${1:column}${2:, :${3:column}${4:, :${5:column}}}</string>
+	<string>should_have_db_index :${1:column}</string>
 	<key>name</key>
-	<string>should_have_indices</string>
+	<string>should_have_db_index</string>
 	<key>scope</key>
 	<string>source.ruby.rails.shoulda</string>
 	<key>tabTrigger</key>
-	<string>shhi</string>
+	<string>shhdi</string>
 	<key>uuid</key>
-	<string>B2C2BBCD-C38C-4A5D-853A-7226DC4C440F</string>
+	<string>03EEAAF7-BFAB-4D85-B766-70C7894F9E0F</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_have_index :${1:column}</string>
+	<string>should_allow_mass_assignment_of :${1:attribute}${2:, :${3:attribute}${4:, :${5:attribute}}}</string>
 	<key>name</key>
-	<string>should_have_index</string>
+	<string>should_allow_mass_assignment_of</string>
 	<key>scope</key>
 	<string>source.ruby.rails.shoulda</string>
 	<key>tabTrigger</key>
-	<string>shhi</string>
+	<string>shamao</string>
 	<key>uuid</key>
-	<string>4B75A76F-D56C-4B2D-A786-8EBDA6D21E12</string>
+	<string>E693B45D-41E7-4531-BA2F-C4E7A491A14B</string>
 </dict>
 </plist>

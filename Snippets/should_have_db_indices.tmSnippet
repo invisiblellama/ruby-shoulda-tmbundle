@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>should_have_named_scope :${1:scope_call}${2:, :conditions =&gt; { :${3:column} =&gt; ${4:value} \}}</string>
+	<string>should_have_db_indices :${1:column}${2:, :${3:column}${4:, :${5:column}}}</string>
 	<key>name</key>
-	<string>should_have_named_scope</string>
+	<string>should_have_db_indices</string>
 	<key>scope</key>
 	<string>source.ruby.rails.shoulda</string>
 	<key>tabTrigger</key>
-	<string>shhns</string>
+	<string>shhdi</string>
 	<key>uuid</key>
-	<string>AB124E74-8CD3-4C35-8006-62DDBE5625D8</string>
+	<string>AA6208A6-2BAD-47D8-9254-4047D5647EB6</string>
 </dict>
 </plist>
